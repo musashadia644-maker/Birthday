@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Friend! 🎂</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="floating-elements">
+        <div class="floating-balloon"></div>
+        <div class="floating-confetti"></div>
+        <div class="floating-gift"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <i class="fas fa-birthday-cake"></i>
+                <span>Birthday<span class="logo-highlight">Celebration</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#wishes">Wishes</a></li>
+                <li><a href="#memories">Memories</a></li>
+                <li><a href="#countdown">Countdown</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Happy birthday</span>
+                        <span class="friend-name" id="friend-name">Morore!</span>
+                    </h1>
+                    <p class="hero-subtitle">Celebrating another year of amazing memories with an incredible friend</p>
+                    
+                    <div class="hero-actions">
+                        <button class="action-btn primary" id="show-surprise">
+                            <i class="fas fa-gift"></i> Birthday Surprise
+                        </button>
+                        
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="main-photo-frame">
+                        <!-- Main Photo - Replace with your friend's main photo -->
+                        <img src="WhatsApp Image 2025-12-23 at 15.46.01 (1).jpeg" 
+                             alt="Birthday Person" class="main-photo" id="main-photo">
+                        <div class="photo-badge">
+                            <i class="fas fa-crown"></i> Birthday Star
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span>Scroll for more</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <div class="section-header">
+                <h2><i class="fas fa-images"></i> Gallery</h2>
+                <p class="section-subtitle">5 memories that defines you</p>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="gallery-grid">
+                    <!-- Photo 1 -->
+                    <div class="gallery-item" data-index="0">
+                        <a href="IMG_E1920.JPG" 
+                           data-fancybox="gallery" data-caption="">
+                            <img src="IMG_E1920.JPG" 
+                                 alt="Friend Photo 1">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <i class="fas fa-search-plus"></i>
+                                    <span>Click to enlarge</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    
+                    <!-- Photo 2 -->
+                    <div class="gallery-item" data-index="1">
+                        <a href="WhatsApp Image 2025-12-23 at 15.46.01.jpeg" 
+                           data-fancybox="gallery" data-caption="Memory #2: Our first adventure together">
+                            <img src="WhatsApp Image 2025-12-23 at 15.46.01.jpeg" 
+                                 alt="Friend Photo 2">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <i class="fas fa-search-plus"></i>
+                                    <span>Click to enlarge</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    
+                    <!-- Photo 3 -->
+                    <div class="gallery-item" data-index="2">
+                        <a href="image4.jpeg" 
+                           data-fancybox="gallery" data-caption="Memory #3: Late night conversations">
+                            <img src="image4.jpeg" 
+                                 alt="Friend Photo 3">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <i class="fas fa-search-plus"></i>
+                                    <span>Click to enlarge</span>
+                                </div>
+                            </div>
+                        </a>
+            
+                    </div>
+                    
+                    <!-- Photo 4 -->
+                    <div class="gallery-item" data-index="3">
+                        <a href="image6.jpeg" 
+                           data-fancybox="gallery" data-caption="Memory #4: Celebrating successes together">
+                            <img src="image6.jpeg" 
+                                 alt="Friend Photo 4">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <i class="fas fa-search-plus"></i>
+                                    <span>Click to enlarge</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    
+                    <!-- Photo 5 -->
+                    <div class="gallery-item" data-index="4">
+                        <a href="WhatsApp Image 2025-12-23 at 15.46.01 (1).jpeg" 
+                           data-fancybox="gallery" data-caption="Memory #5: Just being ourselves">
+                            <img src="WhatsApp Image 2025-12-23 at 15.46.01 (1).jpeg" 
+                                 alt="Friend Photo 5">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <i class="fas fa-search-plus"></i>
+                                    <span>Click to enlarge</span>
+                                </div>
+                                </div>
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                <div class="gallery-controls">
+                    <button class="gallery-btn prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="gallery-counter">
+                        <span id="current-photo">1</span> / <span id="total-photos">5</span>
+                    </div>
+                    <button class="gallery-btn next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                
+                </div>
+            </div>
+        </section>
+
+        <!-- Birthday Wishes Section -->
+        <section id="wishes" class="wishes-section">
+            <div class="section-header">
+                <h2><i class="fas fa-heart"></i> Birthday Wishes</h2>
+                <p class="section-subtitle">Personalized messages for your special day</p>
+            </div>
+            
+            <div class="wishes-container">
+                <div class="wish-editor">
+                    <div class="editor-header">
+                    
+                        <div class="theme-selector">
+                            <span>Card Theme:</span>
+                            <div class="theme-options">
+                                <button class="theme-option" data-theme="gold" style="background: linear-gradient(135deg, #FFD700, #FFA500);"></button>
+                                <button class="theme-option" data-theme="blue" style="background: linear-gradient(135deg, #4A90E2, #2E5AA6);"></button>
+                                <button class="theme-option" data-theme="pink" style="background: linear-gradient(135deg, #FF6B8B, #FF2E5E);"></button>
+                                <button class="theme-option" data-theme="purple" style="background: linear-gradient(135deg, #9B59B6, #8E44AD);"></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-card" id="wish-card">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fas fa-birthday-cake"></i>
+                            </div>
+                            <div class="card-title">
+                                <h3 id="card-friend-name">Morore</h3>
+                                <p>Happy Birthday!</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-content">
+                            <textarea id="wish-message" placeholder="Write your birthday message here...">To my amazing friend, on your special day I wish you endless joy, laughter, and success. May all your dreams come true and may this year be your best one yet!</textarea>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <div class="signature">
+                                <p>From your friend,</p>
+                                <input type="text" id="your-name" placeholder="Your name" value="Shadia.">
+                            </div>
+                            <div class="card-date">
+                                <p id="current-date">Today</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="premade-wishes">
+                    <h3>Quick Birthday Wishes</h3>
+                    <div class="wish-buttons">
+                        <button class="wish-btn" data-wish="May your birthday be as incredible as you are! Wishing you all the happiness in the world.">
+                            <i class="fas fa-star"></i> Incredible
+                        </button>
+                        <button class="wish-btn" data-wish="Another year older, another year more awesome! Cheers to more adventures together.">
+                            <i class="fas fa-glass-cheers"></i> Cheers
+                        </button>
+                        <button class="wish-btn" data-wish="To the friend who makes every day brighter - Happy Birthday! Your presence is a gift.">
+                            <i class="fas fa-sun"></i> Bright
+                        </button>
+                        <button class="wish-btn" data-wish="Wishing you success in all your endeavors and happiness in every moment of the coming year.">
+                            <i class="fas fa-trophy"></i> Success
+                        </button>
+                        <button class="wish-btn" data-wish="May your special day be filled with love, laughter, and all your favorite things!">
+                            <i class="fas fa-heart"></i> Love
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memories Timeline -->
+        <section id="memories" class="timeline-section">
+            <div class="section-header">
+                <h2><i class="fas fa-history"></i> Friendship Timeline</h2>
+                <p class="section-subtitle">Our journey together through the years</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">First Met</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>The Beginning</h3>
+                        <p>We met as classmates and became friends</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">First Adventure</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-hiking"></i>
+                        </div>
+                        <h3>Fun-time with our classmates</h3>
+                        <p>we played, studied, and shared many laughs together with our classmates.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Big Achievement</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Graduation Day</h3>
+                        <p>Graduation day together with our classmates felt like a perfect group photo, big smiles, caps in the air,and endless memories</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Worst days</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fa-solid fa-heart-crack"></i>
+                        </div>
+                        <h3>Sad Days</h3>
+                        <p>Thank you for saving me when i was about to make the biggest mistake of my life.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Today</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <h3>Current Birthday</h3>
+                        <p>Celebrating you today - the amazing person you've become!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countdown Section -->
+        <section id="countdown" class="countdown-section">
+            <div class="section-header">
+                <h2><i class="fas fa-clock"></i> Birthday Countdown</h2>
+            
+            </div>
+            
+            <div class="countdown-container">
+                <div class="countdown-display">
+                    <div class="countdown-unit">
+                        <div class="countdown-number" id="countdown-days">00</div>
+                        <div class="countdown-label">Days</div>
+                    </div>
+                    <div class="countdown-separator">:</div>
+                    <div class="countdown-unit">
+                        <div class="countdown-number" id="countdown-hours">00</div>
+                        <div class="countdown-label">Hours</div>
+                    </div>
+                    <div class="countdown-separator">:</div>
+                    <div class="countdown-unit">
+                        <div class="countdown-number" id="countdown-minutes">00</div>
+                        <div class="countdown-label">Minutes</div>
+                    </div>
+                    <div class="countdown-separator">:</div>
+                    <div class="countdown-unit">
+                        <div class="countdown-number" id="countdown-seconds">00</div>
+                        <div class="countdown-label">Seconds</div>
+                    </div>
+                </div>
+                
+                <div class="party-info">
+                    <div class="info-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div>
+                            <h4>Birthday Date</h4>
+                            <p id="birthday-date">December 28, 2025</p>
+                        </div>
+                        <button class="edit-btn" id="edit-date">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                    </div>
+                    
+                    
+                    
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-birthday-cake"></i>
+                    <span>Birthday<span class="logo-highlight">Celebration</span></span>
+                </div>
+                
+                <div class="footer-message">
+                    <p>Made with <i class="fas fa-heart"></i> for an amazing friend</p>
+                    <p class="footer-note">Wishing you the happiest birthday filled with joy and wonderful memories!</p>
+                </div>
+                
+                
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 Birthday Celebration | Created especially for <span id="footer-friend-name">Morore</span></p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="birthday-song" loop>
+        <source src="https://assets.mixkit.co/music/preview/mixkit-happy-birthday-to-you-443.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
