@@ -37,7 +37,7 @@ const friendInfo = {
     name: "Morore",
     birthday: "December 28, 2025",
     photos: [
-        "WhatsApp Image 2025-12-23 at 15.46.01 (1).jpeg",
+        "image/WhatsApp Image 2025-12-23 at 15.46.01 (1).jpeg",
         "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
         "https://images.unsplash.com/photo-1540569876033-6e5d046a1d77?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
         "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
